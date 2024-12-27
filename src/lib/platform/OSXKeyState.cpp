@@ -128,11 +128,11 @@ static const KeyEntry    s_controlKeys[] = {
     { kKeyBrightnessDown, s_brightnessDown },
 
     // JIS keyboards only
-    { kKeyEisuToggle, kVK_JIS_Eisu },
-    { kKeyKana, kVK_JIS_Kana },
-    { kKeyMuhenkan, s_int5VK },
-    { kKeyHenkan, s_int4VK },
-    { kKeyZenkaku, kVK_ANSI_Grave }
+    { kKeyMuhenkan, kVK_JIS_Eisu },
+    { kKeyHenkan, kVK_JIS_Kana }
+    //{ kKeyMuhenkan, s_int5VK },
+    //{ kKeyHenkan, s_int4VK },
+    //{ kKeyZenkaku, kVK_ANSI_Grave }
 };
 
 
